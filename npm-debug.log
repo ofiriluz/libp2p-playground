@@ -1,0 +1,1549 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'libp2p-floodsub' ]
+2 info using npm@3.10.10
+3 info using node@v6.14.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData libp2p-floodsub
+8 silly fetchNamedPackageData libp2p-floodsub
+9 silly mapToRegistry name libp2p-floodsub
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'libp2p-floodsub',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'libp2p-floodsub',
+12 silly mapToRegistry   name: 'libp2p-floodsub',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/libp2p-floodsub
+14 verbose request uri https://registry.npmjs.org/libp2p-floodsub
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 3:56:04 PM
+17 verbose request id de798189fe336e5e
+18 http request GET https://registry.npmjs.org/libp2p-floodsub
+19 http 200 https://registry.npmjs.org/libp2p-floodsub
+20 verbose headers { date: 'Sun, 12 Aug 2018 22:56:00 GMT',
+20 verbose headers   'content-type': 'application/json; charset=UTF-8',
+20 verbose headers   'transfer-encoding': 'chunked',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'set-cookie': [ '__cfduid=d818e90ca3c89862299fe6530916ef2031534114559; expires=Mon, 12-Aug-19 22:55:59 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   'cf-cache-status': 'REVALIDATED',
+20 verbose headers   'cf-ray': '4496885e5a8b06e8-LHR',
+20 verbose headers   etag: 'W/"bafd18d5625257712c810b31d3b8ad0d"',
+20 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+20 verbose headers   'last-modified': 'Sun, 27 May 2018 06:42:35 GMT',
+20 verbose headers   vary: 'accept-encoding, accept',
+20 verbose headers   server: 'cloudflare',
+20 verbose headers   'content-encoding': 'gzip' }
+21 silly get cb [ 200,
+21 silly get   { date: 'Sun, 12 Aug 2018 22:56:00 GMT',
+21 silly get     'content-type': 'application/json; charset=UTF-8',
+21 silly get     'transfer-encoding': 'chunked',
+21 silly get     connection: 'keep-alive',
+21 silly get     'set-cookie': [ '__cfduid=d818e90ca3c89862299fe6530916ef2031534114559; expires=Mon, 12-Aug-19 22:55:59 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     'cf-cache-status': 'REVALIDATED',
+21 silly get     'cf-ray': '4496885e5a8b06e8-LHR',
+21 silly get     etag: 'W/"bafd18d5625257712c810b31d3b8ad0d"',
+21 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+21 silly get     'last-modified': 'Sun, 27 May 2018 06:42:35 GMT',
+21 silly get     vary: 'accept-encoding, accept',
+21 silly get     server: 'cloudflare',
+21 silly get     'content-encoding': 'gzip' } ]
+22 verbose get saving libp2p-floodsub to /home/playground/.npm/registry.npmjs.org/libp2p-floodsub/.cache.json
+23 verbose correctMkdir /home/playground/.npm correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule libp2p-floodsub@0.15.0 checking installable status
+37 silly cache add args [ 'libp2p-floodsub', null ]
+38 verbose cache add spec libp2p-floodsub
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'libp2p-floodsub',
+39 silly cache add   scope: null,
+39 silly cache add   escapedName: 'libp2p-floodsub',
+39 silly cache add   name: 'libp2p-floodsub',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed libp2p-floodsub@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for libp2p-floodsub
+42 info addNameTag [ 'libp2p-floodsub', 'latest' ]
+43 silly mapToRegistry name libp2p-floodsub
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'libp2p-floodsub',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   escapedName: 'libp2p-floodsub',
+46 silly mapToRegistry   name: 'libp2p-floodsub',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/libp2p-floodsub
+48 verbose addNameTag registry:https://registry.npmjs.org/libp2p-floodsub not in flight; fetching
+49 verbose get https://registry.npmjs.org/libp2p-floodsub not expired, no request
+50 silly addNameTag next cb for libp2p-floodsub with tag latest
+51 silly addNamed libp2p-floodsub@0.15.0
+52 verbose addNamed "0.15.0" is a plain semver version for libp2p-floodsub
+53 silly mapToRegistry name libp2p-floodsub
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'libp2p-floodsub',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   escapedName: 'libp2p-floodsub',
+56 silly mapToRegistry   name: 'libp2p-floodsub',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://registry.npmjs.org/libp2p-floodsub
+58 verbose addRemoteTarball https://registry.npmjs.org/libp2p-floodsub/-/libp2p-floodsub-0.15.0.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/libp2p-floodsub/-/libp2p-floodsub-0.15.0.tgz',
+59 verbose addRemoteTarball   '2ab70bed288b105d7cb80bef05a4ab91c08af768' ]
+60 info retry fetch attempt 1 at 3:56:06 PM
+61 info attempt registry request try #1 at 3:56:06 PM
+62 http fetch GET https://registry.npmjs.org/libp2p-floodsub/-/libp2p-floodsub-0.15.0.tgz
+63 http fetch 200 https://registry.npmjs.org/libp2p-floodsub/-/libp2p-floodsub-0.15.0.tgz
+64 silly fetchAndShaCheck shasum 2ab70bed288b105d7cb80bef05a4ab91c08af768
+65 verbose addTmpTarball /tmp/npm-72878-c72ce3c2/registry.npmjs.org/libp2p-floodsub/-/libp2p-floodsub-0.15.0.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for libp2p-floodsub@0.15.0
+67 verbose correctMkdir /home/playground/.npm correctMkdir not in flight; initializing
+68 silly cache afterAdd libp2p-floodsub@0.15.0
+69 verbose afterAdd /home/playground/.npm/libp2p-floodsub/0.15.0/package/package.json not in flight; writing
+70 verbose correctMkdir /home/playground/.npm correctMkdir not in flight; initializing
+71 verbose afterAdd /home/playground/.npm/libp2p-floodsub/0.15.0/package/package.json written
+72 silly fetchNamedPackageData length-prefixed-stream
+73 silly mapToRegistry name length-prefixed-stream
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'length-prefixed-stream',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   escapedName: 'length-prefixed-stream',
+76 silly mapToRegistry   name: 'length-prefixed-stream',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/length-prefixed-stream
+78 silly fetchNamedPackageData lodash.values
+79 silly mapToRegistry name lodash.values
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry data Result {
+82 silly mapToRegistry   raw: 'lodash.values',
+82 silly mapToRegistry   scope: null,
+82 silly mapToRegistry   escapedName: 'lodash.values',
+82 silly mapToRegistry   name: 'lodash.values',
+82 silly mapToRegistry   rawSpec: '',
+82 silly mapToRegistry   spec: 'latest',
+82 silly mapToRegistry   type: 'tag' }
+83 silly mapToRegistry uri https://registry.npmjs.org/lodash.values
+84 silly fetchNamedPackageData time-cache
+85 silly mapToRegistry name time-cache
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry data Result {
+88 silly mapToRegistry   raw: 'time-cache',
+88 silly mapToRegistry   scope: null,
+88 silly mapToRegistry   escapedName: 'time-cache',
+88 silly mapToRegistry   name: 'time-cache',
+88 silly mapToRegistry   rawSpec: '',
+88 silly mapToRegistry   spec: 'latest',
+88 silly mapToRegistry   type: 'tag' }
+89 silly mapToRegistry uri https://registry.npmjs.org/time-cache
+90 verbose request uri https://registry.npmjs.org/length-prefixed-stream
+91 verbose request no auth needed
+92 info attempt registry request try #1 at 3:56:07 PM
+93 http request GET https://registry.npmjs.org/length-prefixed-stream
+94 verbose request uri https://registry.npmjs.org/lodash.values
+95 verbose request no auth needed
+96 info attempt registry request try #1 at 3:56:07 PM
+97 http request GET https://registry.npmjs.org/lodash.values
+98 verbose request uri https://registry.npmjs.org/time-cache
+99 verbose request no auth needed
+100 info attempt registry request try #1 at 3:56:07 PM
+101 http request GET https://registry.npmjs.org/time-cache
+102 http 200 https://registry.npmjs.org/lodash.values
+103 verbose headers { date: 'Sun, 12 Aug 2018 22:56:02 GMT',
+103 verbose headers   'content-type': 'application/json; charset=UTF-8',
+103 verbose headers   'transfer-encoding': 'chunked',
+103 verbose headers   connection: 'keep-alive',
+103 verbose headers   'set-cookie': [ '__cfduid=d60a0628d2be822def7acc068418b4a5f1534114562; expires=Mon, 12-Aug-19 22:56:02 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+103 verbose headers   'cache-control': 'max-age=300',
+103 verbose headers   'cf-cache-status': 'HIT',
+103 verbose headers   'cf-ray': '4496886e0c55bbc0-LHR',
+103 verbose headers   etag: 'W/"c5681466a135755d03b961f1ee3f06a6"',
+103 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+103 verbose headers   'last-modified': 'Sun, 27 May 2018 06:59:12 GMT',
+103 verbose headers   vary: 'accept-encoding, accept',
+103 verbose headers   server: 'cloudflare',
+103 verbose headers   'content-encoding': 'gzip' }
+104 silly get cb [ 200,
+104 silly get   { date: 'Sun, 12 Aug 2018 22:56:02 GMT',
+104 silly get     'content-type': 'application/json; charset=UTF-8',
+104 silly get     'transfer-encoding': 'chunked',
+104 silly get     connection: 'keep-alive',
+104 silly get     'set-cookie': [ '__cfduid=d60a0628d2be822def7acc068418b4a5f1534114562; expires=Mon, 12-Aug-19 22:56:02 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+104 silly get     'cache-control': 'max-age=300',
+104 silly get     'cf-cache-status': 'HIT',
+104 silly get     'cf-ray': '4496886e0c55bbc0-LHR',
+104 silly get     etag: 'W/"c5681466a135755d03b961f1ee3f06a6"',
+104 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+104 silly get     'last-modified': 'Sun, 27 May 2018 06:59:12 GMT',
+104 silly get     vary: 'accept-encoding, accept',
+104 silly get     server: 'cloudflare',
+104 silly get     'content-encoding': 'gzip' } ]
+105 verbose get saving lodash.values to /home/playground/.npm/registry.npmjs.org/lodash.values/.cache.json
+106 verbose correctMkdir /home/playground/.npm correctMkdir not in flight; initializing
+107 silly resolveWithNewModule lodash.values@4.3.0 checking installable status
+108 silly cache add args [ 'lodash.values@^4.3.0', null ]
+109 verbose cache add spec lodash.values@^4.3.0
+110 silly cache add parsed spec Result {
+110 silly cache add   raw: 'lodash.values@^4.3.0',
+110 silly cache add   scope: null,
+110 silly cache add   escapedName: 'lodash.values',
+110 silly cache add   name: 'lodash.values',
+110 silly cache add   rawSpec: '^4.3.0',
+110 silly cache add   spec: '>=4.3.0 <5.0.0',
+110 silly cache add   type: 'range' }
+111 silly addNamed lodash.values@>=4.3.0 <5.0.0
+112 verbose addNamed ">=4.3.0 <5.0.0" is a valid semver range for lodash.values
+113 silly addNameRange { name: 'lodash.values',
+113 silly addNameRange   range: '>=4.3.0 <5.0.0',
+113 silly addNameRange   hasData: false }
+114 silly mapToRegistry name lodash.values
+115 silly mapToRegistry using default registry
+116 silly mapToRegistry registry https://registry.npmjs.org/
+117 silly mapToRegistry data Result {
+117 silly mapToRegistry   raw: 'lodash.values',
+117 silly mapToRegistry   scope: null,
+117 silly mapToRegistry   escapedName: 'lodash.values',
+117 silly mapToRegistry   name: 'lodash.values',
+117 silly mapToRegistry   rawSpec: '',
+117 silly mapToRegistry   spec: 'latest',
+117 silly mapToRegistry   type: 'tag' }
+118 silly mapToRegistry uri https://registry.npmjs.org/lodash.values
+119 verbose addNameRange registry:https://registry.npmjs.org/lodash.values not in flight; fetching
+120 verbose get https://registry.npmjs.org/lodash.values not expired, no request
+121 silly addNameRange number 2 { name: 'lodash.values', range: '>=4.3.0 <5.0.0', hasData: true }
+122 silly addNameRange versions [ 'lodash.values',
+122 silly addNameRange   [ '2.0.0',
+122 silly addNameRange     '2.1.0',
+122 silly addNameRange     '2.2.0',
+122 silly addNameRange     '2.2.1',
+122 silly addNameRange     '2.3.0',
+122 silly addNameRange     '2.4.0',
+122 silly addNameRange     '2.4.1',
+122 silly addNameRange     '3.0.0',
+122 silly addNameRange     '4.0.0',
+122 silly addNameRange     '4.1.0',
+122 silly addNameRange     '4.2.0',
+122 silly addNameRange     '4.3.0' ] ]
+123 silly addNamed lodash.values@4.3.0
+124 verbose addNamed "4.3.0" is a plain semver version for lodash.values
+125 silly mapToRegistry name lodash.values
+126 silly mapToRegistry using default registry
+127 silly mapToRegistry registry https://registry.npmjs.org/
+128 silly mapToRegistry data Result {
+128 silly mapToRegistry   raw: 'lodash.values',
+128 silly mapToRegistry   scope: null,
+128 silly mapToRegistry   escapedName: 'lodash.values',
+128 silly mapToRegistry   name: 'lodash.values',
+128 silly mapToRegistry   rawSpec: '',
+128 silly mapToRegistry   spec: 'latest',
+128 silly mapToRegistry   type: 'tag' }
+129 silly mapToRegistry uri https://registry.npmjs.org/lodash.values
+130 verbose addRemoteTarball https://registry.npmjs.org/lodash.values/-/lodash.values-4.3.0.tgz not in flight; adding
+131 verbose addRemoteTarball [ 'https://registry.npmjs.org/lodash.values/-/lodash.values-4.3.0.tgz',
+131 verbose addRemoteTarball   'a3a6c2b0ebecc5c2cba1c17e6e620fe81b53d347' ]
+132 info retry fetch attempt 1 at 3:56:07 PM
+133 info attempt registry request try #1 at 3:56:07 PM
+134 http fetch GET https://registry.npmjs.org/lodash.values/-/lodash.values-4.3.0.tgz
+135 http fetch 200 https://registry.npmjs.org/lodash.values/-/lodash.values-4.3.0.tgz
+136 silly fetchAndShaCheck shasum a3a6c2b0ebecc5c2cba1c17e6e620fe81b53d347
+137 verbose addTmpTarball /tmp/npm-72878-c72ce3c2/registry.npmjs.org/lodash.values/-/lodash.values-4.3.0.tgz not in flight; adding
+138 verbose addTmpTarball already have metadata; skipping unpack for lodash.values@4.3.0
+139 verbose correctMkdir /home/playground/.npm correctMkdir not in flight; initializing
+140 silly cache afterAdd lodash.values@4.3.0
+141 verbose afterAdd /home/playground/.npm/lodash.values/4.3.0/package/package.json not in flight; writing
+142 verbose correctMkdir /home/playground/.npm correctMkdir not in flight; initializing
+143 verbose afterAdd /home/playground/.npm/lodash.values/4.3.0/package/package.json written
+144 http 200 https://registry.npmjs.org/length-prefixed-stream
+145 verbose headers { date: 'Sun, 12 Aug 2018 22:56:02 GMT',
+145 verbose headers   'content-type': 'application/json; charset=UTF-8',
+145 verbose headers   'transfer-encoding': 'chunked',
+145 verbose headers   connection: 'keep-alive',
+145 verbose headers   'set-cookie': [ '__cfduid=d0ee4460b8da19c7794ca258a6c6c19f31534114562; expires=Mon, 12-Aug-19 22:56:02 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+145 verbose headers   'cache-control': 'max-age=300',
+145 verbose headers   'cf-cache-status': 'REVALIDATED',
+145 verbose headers   'cf-ray': '4496886c9e6c06e8-LHR',
+145 verbose headers   etag: 'W/"58fba2558f137a30f9fb2a48144ba5e6"',
+145 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+145 verbose headers   'last-modified': 'Thu, 21 Jun 2018 08:26:20 GMT',
+145 verbose headers   vary: 'accept-encoding, accept',
+145 verbose headers   server: 'cloudflare',
+145 verbose headers   'content-encoding': 'gzip' }
+146 silly get cb [ 200,
+146 silly get   { date: 'Sun, 12 Aug 2018 22:56:02 GMT',
+146 silly get     'content-type': 'application/json; charset=UTF-8',
+146 silly get     'transfer-encoding': 'chunked',
+146 silly get     connection: 'keep-alive',
+146 silly get     'set-cookie': [ '__cfduid=d0ee4460b8da19c7794ca258a6c6c19f31534114562; expires=Mon, 12-Aug-19 22:56:02 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+146 silly get     'cache-control': 'max-age=300',
+146 silly get     'cf-cache-status': 'REVALIDATED',
+146 silly get     'cf-ray': '4496886c9e6c06e8-LHR',
+146 silly get     etag: 'W/"58fba2558f137a30f9fb2a48144ba5e6"',
+146 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+146 silly get     'last-modified': 'Thu, 21 Jun 2018 08:26:20 GMT',
+146 silly get     vary: 'accept-encoding, accept',
+146 silly get     server: 'cloudflare',
+146 silly get     'content-encoding': 'gzip' } ]
+147 verbose get saving length-prefixed-stream to /home/playground/.npm/registry.npmjs.org/length-prefixed-stream/.cache.json
+148 verbose correctMkdir /home/playground/.npm correctMkdir not in flight; initializing
+149 silly resolveWithNewModule length-prefixed-stream@1.6.0 checking installable status
+150 silly cache add args [ 'length-prefixed-stream@^1.5.2', null ]
+151 verbose cache add spec length-prefixed-stream@^1.5.2
+152 silly cache add parsed spec Result {
+152 silly cache add   raw: 'length-prefixed-stream@^1.5.2',
+152 silly cache add   scope: null,
+152 silly cache add   escapedName: 'length-prefixed-stream',
+152 silly cache add   name: 'length-prefixed-stream',
+152 silly cache add   rawSpec: '^1.5.2',
+152 silly cache add   spec: '>=1.5.2 <2.0.0',
+152 silly cache add   type: 'range' }
+153 silly addNamed length-prefixed-stream@>=1.5.2 <2.0.0
+154 verbose addNamed ">=1.5.2 <2.0.0" is a valid semver range for length-prefixed-stream
+155 silly addNameRange { name: 'length-prefixed-stream',
+155 silly addNameRange   range: '>=1.5.2 <2.0.0',
+155 silly addNameRange   hasData: false }
+156 silly mapToRegistry name length-prefixed-stream
+157 silly mapToRegistry using default registry
+158 silly mapToRegistry registry https://registry.npmjs.org/
+159 silly mapToRegistry data Result {
+159 silly mapToRegistry   raw: 'length-prefixed-stream',
+159 silly mapToRegistry   scope: null,
+159 silly mapToRegistry   escapedName: 'length-prefixed-stream',
+159 silly mapToRegistry   name: 'length-prefixed-stream',
+159 silly mapToRegistry   rawSpec: '',
+159 silly mapToRegistry   spec: 'latest',
+159 silly mapToRegistry   type: 'tag' }
+160 silly mapToRegistry uri https://registry.npmjs.org/length-prefixed-stream
+161 verbose addNameRange registry:https://registry.npmjs.org/length-prefixed-stream not in flight; fetching
+162 verbose get https://registry.npmjs.org/length-prefixed-stream not expired, no request
+163 silly addNameRange number 2 { name: 'length-prefixed-stream',
+163 silly addNameRange   range: '>=1.5.2 <2.0.0',
+163 silly addNameRange   hasData: true }
+164 silly addNameRange versions [ 'length-prefixed-stream',
+164 silly addNameRange   [ '1.0.0',
+164 silly addNameRange     '1.0.1',
+164 silly addNameRange     '1.1.0',
+164 silly addNameRange     '1.2.0',
+164 silly addNameRange     '1.3.0',
+164 silly addNameRange     '1.3.1',
+164 silly addNameRange     '1.3.2',
+164 silly addNameRange     '1.4.0',
+164 silly addNameRange     '1.5.0',
+164 silly addNameRange     '1.5.1',
+164 silly addNameRange     '1.5.2',
+164 silly addNameRange     '1.6.0' ] ]
+165 silly addNamed length-prefixed-stream@1.6.0
+166 verbose addNamed "1.6.0" is a plain semver version for length-prefixed-stream
+167 silly mapToRegistry name length-prefixed-stream
+168 silly mapToRegistry using default registry
+169 silly mapToRegistry registry https://registry.npmjs.org/
+170 silly mapToRegistry data Result {
+170 silly mapToRegistry   raw: 'length-prefixed-stream',
+170 silly mapToRegistry   scope: null,
+170 silly mapToRegistry   escapedName: 'length-prefixed-stream',
+170 silly mapToRegistry   name: 'length-prefixed-stream',
+170 silly mapToRegistry   rawSpec: '',
+170 silly mapToRegistry   spec: 'latest',
+170 silly mapToRegistry   type: 'tag' }
+171 silly mapToRegistry uri https://registry.npmjs.org/length-prefixed-stream
+172 verbose addRemoteTarball https://registry.npmjs.org/length-prefixed-stream/-/length-prefixed-stream-1.6.0.tgz not in flight; adding
+173 verbose addRemoteTarball [ 'https://registry.npmjs.org/length-prefixed-stream/-/length-prefixed-stream-1.6.0.tgz',
+173 verbose addRemoteTarball   '6aeeecf38a337172ea0472250e90f5e15b8b2334' ]
+174 info retry fetch attempt 1 at 3:56:07 PM
+175 info attempt registry request try #1 at 3:56:07 PM
+176 http fetch GET https://registry.npmjs.org/length-prefixed-stream/-/length-prefixed-stream-1.6.0.tgz
+177 http fetch 200 https://registry.npmjs.org/length-prefixed-stream/-/length-prefixed-stream-1.6.0.tgz
+178 silly fetchAndShaCheck shasum 6aeeecf38a337172ea0472250e90f5e15b8b2334
+179 verbose addTmpTarball /tmp/npm-72878-c72ce3c2/registry.npmjs.org/length-prefixed-stream/-/length-prefixed-stream-1.6.0.tgz not in flight; adding
+180 verbose addTmpTarball already have metadata; skipping unpack for length-prefixed-stream@1.6.0
+181 verbose correctMkdir /home/playground/.npm correctMkdir not in flight; initializing
+182 silly cache afterAdd length-prefixed-stream@1.6.0
+183 verbose afterAdd /home/playground/.npm/length-prefixed-stream/1.6.0/package/package.json not in flight; writing
+184 verbose correctMkdir /home/playground/.npm correctMkdir not in flight; initializing
+185 verbose afterAdd /home/playground/.npm/length-prefixed-stream/1.6.0/package/package.json written
+186 http 200 https://registry.npmjs.org/time-cache
+187 verbose headers { date: 'Sun, 12 Aug 2018 22:56:02 GMT',
+187 verbose headers   'content-type': 'application/json; charset=UTF-8',
+187 verbose headers   'transfer-encoding': 'chunked',
+187 verbose headers   connection: 'keep-alive',
+187 verbose headers   'set-cookie': [ '__cfduid=de9d5dd9c1a28b2927010c3c9ca8631631534114562; expires=Mon, 12-Aug-19 22:56:02 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+187 verbose headers   'cache-control': 'max-age=300',
+187 verbose headers   'cf-cache-status': 'REVALIDATED',
+187 verbose headers   'cf-ray': '4496886e098535d2-LHR',
+187 verbose headers   etag: 'W/"b409c93d2c21bde973a1e7c3e44bcb90"',
+187 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+187 verbose headers   'last-modified': 'Sun, 27 May 2018 19:30:58 GMT',
+187 verbose headers   vary: 'accept-encoding, accept',
+187 verbose headers   server: 'cloudflare',
+187 verbose headers   'content-encoding': 'gzip' }
+188 silly get cb [ 200,
+188 silly get   { date: 'Sun, 12 Aug 2018 22:56:02 GMT',
+188 silly get     'content-type': 'application/json; charset=UTF-8',
+188 silly get     'transfer-encoding': 'chunked',
+188 silly get     connection: 'keep-alive',
+188 silly get     'set-cookie': [ '__cfduid=de9d5dd9c1a28b2927010c3c9ca8631631534114562; expires=Mon, 12-Aug-19 22:56:02 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+188 silly get     'cache-control': 'max-age=300',
+188 silly get     'cf-cache-status': 'REVALIDATED',
+188 silly get     'cf-ray': '4496886e098535d2-LHR',
+188 silly get     etag: 'W/"b409c93d2c21bde973a1e7c3e44bcb90"',
+188 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+188 silly get     'last-modified': 'Sun, 27 May 2018 19:30:58 GMT',
+188 silly get     vary: 'accept-encoding, accept',
+188 silly get     server: 'cloudflare',
+188 silly get     'content-encoding': 'gzip' } ]
+189 verbose get saving time-cache to /home/playground/.npm/registry.npmjs.org/time-cache/.cache.json
+190 verbose correctMkdir /home/playground/.npm correctMkdir not in flight; initializing
+191 silly resolveWithNewModule time-cache@0.3.0 checking installable status
+192 silly cache add args [ 'time-cache@~0.3.0', null ]
+193 verbose cache add spec time-cache@~0.3.0
+194 silly cache add parsed spec Result {
+194 silly cache add   raw: 'time-cache@~0.3.0',
+194 silly cache add   scope: null,
+194 silly cache add   escapedName: 'time-cache',
+194 silly cache add   name: 'time-cache',
+194 silly cache add   rawSpec: '~0.3.0',
+194 silly cache add   spec: '>=0.3.0 <0.4.0',
+194 silly cache add   type: 'range' }
+195 silly addNamed time-cache@>=0.3.0 <0.4.0
+196 verbose addNamed ">=0.3.0 <0.4.0" is a valid semver range for time-cache
+197 silly addNameRange { name: 'time-cache', range: '>=0.3.0 <0.4.0', hasData: false }
+198 silly mapToRegistry name time-cache
+199 silly mapToRegistry using default registry
+200 silly mapToRegistry registry https://registry.npmjs.org/
+201 silly mapToRegistry data Result {
+201 silly mapToRegistry   raw: 'time-cache',
+201 silly mapToRegistry   scope: null,
+201 silly mapToRegistry   escapedName: 'time-cache',
+201 silly mapToRegistry   name: 'time-cache',
+201 silly mapToRegistry   rawSpec: '',
+201 silly mapToRegistry   spec: 'latest',
+201 silly mapToRegistry   type: 'tag' }
+202 silly mapToRegistry uri https://registry.npmjs.org/time-cache
+203 verbose addNameRange registry:https://registry.npmjs.org/time-cache not in flight; fetching
+204 verbose get https://registry.npmjs.org/time-cache not expired, no request
+205 silly addNameRange number 2 { name: 'time-cache', range: '>=0.3.0 <0.4.0', hasData: true }
+206 silly addNameRange versions [ 'time-cache', [ '0.2.0', '0.2.1', '0.2.3', '0.3.0' ] ]
+207 silly addNamed time-cache@0.3.0
+208 verbose addNamed "0.3.0" is a plain semver version for time-cache
+209 silly mapToRegistry name time-cache
+210 silly mapToRegistry using default registry
+211 silly mapToRegistry registry https://registry.npmjs.org/
+212 silly mapToRegistry data Result {
+212 silly mapToRegistry   raw: 'time-cache',
+212 silly mapToRegistry   scope: null,
+212 silly mapToRegistry   escapedName: 'time-cache',
+212 silly mapToRegistry   name: 'time-cache',
+212 silly mapToRegistry   rawSpec: '',
+212 silly mapToRegistry   spec: 'latest',
+212 silly mapToRegistry   type: 'tag' }
+213 silly mapToRegistry uri https://registry.npmjs.org/time-cache
+214 verbose addRemoteTarball https://registry.npmjs.org/time-cache/-/time-cache-0.3.0.tgz not in flight; adding
+215 verbose addRemoteTarball [ 'https://registry.npmjs.org/time-cache/-/time-cache-0.3.0.tgz',
+215 verbose addRemoteTarball   'ed0dfcf0fda45cdc95fbd601fda830ebf1bd5d8b' ]
+216 info retry fetch attempt 1 at 3:56:08 PM
+217 info attempt registry request try #1 at 3:56:08 PM
+218 http fetch GET https://registry.npmjs.org/time-cache/-/time-cache-0.3.0.tgz
+219 http fetch 200 https://registry.npmjs.org/time-cache/-/time-cache-0.3.0.tgz
+220 silly fetchAndShaCheck shasum ed0dfcf0fda45cdc95fbd601fda830ebf1bd5d8b
+221 verbose addTmpTarball /tmp/npm-72878-c72ce3c2/registry.npmjs.org/time-cache/-/time-cache-0.3.0.tgz not in flight; adding
+222 verbose addTmpTarball already have metadata; skipping unpack for time-cache@0.3.0
+223 verbose correctMkdir /home/playground/.npm correctMkdir not in flight; initializing
+224 silly cache afterAdd time-cache@0.3.0
+225 verbose afterAdd /home/playground/.npm/time-cache/0.3.0/package/package.json not in flight; writing
+226 verbose correctMkdir /home/playground/.npm correctMkdir not in flight; initializing
+227 verbose afterAdd /home/playground/.npm/time-cache/0.3.0/package/package.json written
+228 silly fetchNamedPackageData buffer-alloc-unsafe
+229 silly mapToRegistry name buffer-alloc-unsafe
+230 silly mapToRegistry using default registry
+231 silly mapToRegistry registry https://registry.npmjs.org/
+232 silly mapToRegistry data Result {
+232 silly mapToRegistry   raw: 'buffer-alloc-unsafe',
+232 silly mapToRegistry   scope: null,
+232 silly mapToRegistry   escapedName: 'buffer-alloc-unsafe',
+232 silly mapToRegistry   name: 'buffer-alloc-unsafe',
+232 silly mapToRegistry   rawSpec: '',
+232 silly mapToRegistry   spec: 'latest',
+232 silly mapToRegistry   type: 'tag' }
+233 silly mapToRegistry uri https://registry.npmjs.org/buffer-alloc-unsafe
+234 verbose request uri https://registry.npmjs.org/buffer-alloc-unsafe
+235 verbose request no auth needed
+236 info attempt registry request try #1 at 3:56:08 PM
+237 http request GET https://registry.npmjs.org/buffer-alloc-unsafe
+238 http 200 https://registry.npmjs.org/buffer-alloc-unsafe
+239 verbose headers { date: 'Sun, 12 Aug 2018 22:56:03 GMT',
+239 verbose headers   'content-type': 'application/json; charset=UTF-8',
+239 verbose headers   'transfer-encoding': 'chunked',
+239 verbose headers   connection: 'keep-alive',
+239 verbose headers   'set-cookie': [ '__cfduid=d8c098f7b966f91f9c8dbe9a9a47380fe1534114563; expires=Mon, 12-Aug-19 22:56:03 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+239 verbose headers   'cache-control': 'max-age=300',
+239 verbose headers   'cf-cache-status': 'HIT',
+239 verbose headers   'cf-ray': '44968873a9bfbbc0-LHR',
+239 verbose headers   etag: 'W/"cb807a3f4ab2a01e82f531edc63178fe"',
+239 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+239 verbose headers   'last-modified': 'Tue, 29 May 2018 23:19:50 GMT',
+239 verbose headers   vary: 'accept-encoding, accept',
+239 verbose headers   server: 'cloudflare',
+239 verbose headers   'content-encoding': 'gzip' }
+240 silly get cb [ 200,
+240 silly get   { date: 'Sun, 12 Aug 2018 22:56:03 GMT',
+240 silly get     'content-type': 'application/json; charset=UTF-8',
+240 silly get     'transfer-encoding': 'chunked',
+240 silly get     connection: 'keep-alive',
+240 silly get     'set-cookie': [ '__cfduid=d8c098f7b966f91f9c8dbe9a9a47380fe1534114563; expires=Mon, 12-Aug-19 22:56:03 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+240 silly get     'cache-control': 'max-age=300',
+240 silly get     'cf-cache-status': 'HIT',
+240 silly get     'cf-ray': '44968873a9bfbbc0-LHR',
+240 silly get     etag: 'W/"cb807a3f4ab2a01e82f531edc63178fe"',
+240 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+240 silly get     'last-modified': 'Tue, 29 May 2018 23:19:50 GMT',
+240 silly get     vary: 'accept-encoding, accept',
+240 silly get     server: 'cloudflare',
+240 silly get     'content-encoding': 'gzip' } ]
+241 verbose get saving buffer-alloc-unsafe to /home/playground/.npm/registry.npmjs.org/buffer-alloc-unsafe/.cache.json
+242 verbose correctMkdir /home/playground/.npm correctMkdir not in flight; initializing
+243 silly resolveWithNewModule buffer-alloc-unsafe@1.1.0 checking installable status
+244 silly cache add args [ 'buffer-alloc-unsafe@^1.0.0', null ]
+245 verbose cache add spec buffer-alloc-unsafe@^1.0.0
+246 silly cache add parsed spec Result {
+246 silly cache add   raw: 'buffer-alloc-unsafe@^1.0.0',
+246 silly cache add   scope: null,
+246 silly cache add   escapedName: 'buffer-alloc-unsafe',
+246 silly cache add   name: 'buffer-alloc-unsafe',
+246 silly cache add   rawSpec: '^1.0.0',
+246 silly cache add   spec: '>=1.0.0 <2.0.0',
+246 silly cache add   type: 'range' }
+247 silly addNamed buffer-alloc-unsafe@>=1.0.0 <2.0.0
+248 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for buffer-alloc-unsafe
+249 silly addNameRange { name: 'buffer-alloc-unsafe',
+249 silly addNameRange   range: '>=1.0.0 <2.0.0',
+249 silly addNameRange   hasData: false }
+250 silly mapToRegistry name buffer-alloc-unsafe
+251 silly mapToRegistry using default registry
+252 silly mapToRegistry registry https://registry.npmjs.org/
+253 silly mapToRegistry data Result {
+253 silly mapToRegistry   raw: 'buffer-alloc-unsafe',
+253 silly mapToRegistry   scope: null,
+253 silly mapToRegistry   escapedName: 'buffer-alloc-unsafe',
+253 silly mapToRegistry   name: 'buffer-alloc-unsafe',
+253 silly mapToRegistry   rawSpec: '',
+253 silly mapToRegistry   spec: 'latest',
+253 silly mapToRegistry   type: 'tag' }
+254 silly mapToRegistry uri https://registry.npmjs.org/buffer-alloc-unsafe
+255 verbose addNameRange registry:https://registry.npmjs.org/buffer-alloc-unsafe not in flight; fetching
+256 verbose get https://registry.npmjs.org/buffer-alloc-unsafe not expired, no request
+257 silly addNameRange number 2 { name: 'buffer-alloc-unsafe',
+257 silly addNameRange   range: '>=1.0.0 <2.0.0',
+257 silly addNameRange   hasData: true }
+258 silly addNameRange versions [ 'buffer-alloc-unsafe',
+258 silly addNameRange   [ '0.1.0', '0.1.1', '1.0.0', '1.1.0' ] ]
+259 silly addNamed buffer-alloc-unsafe@1.1.0
+260 verbose addNamed "1.1.0" is a plain semver version for buffer-alloc-unsafe
+261 silly mapToRegistry name buffer-alloc-unsafe
+262 silly mapToRegistry using default registry
+263 silly mapToRegistry registry https://registry.npmjs.org/
+264 silly mapToRegistry data Result {
+264 silly mapToRegistry   raw: 'buffer-alloc-unsafe',
+264 silly mapToRegistry   scope: null,
+264 silly mapToRegistry   escapedName: 'buffer-alloc-unsafe',
+264 silly mapToRegistry   name: 'buffer-alloc-unsafe',
+264 silly mapToRegistry   rawSpec: '',
+264 silly mapToRegistry   spec: 'latest',
+264 silly mapToRegistry   type: 'tag' }
+265 silly mapToRegistry uri https://registry.npmjs.org/buffer-alloc-unsafe
+266 verbose addRemoteTarball https://registry.npmjs.org/buffer-alloc-unsafe/-/buffer-alloc-unsafe-1.1.0.tgz not in flight; adding
+267 verbose addRemoteTarball [ 'https://registry.npmjs.org/buffer-alloc-unsafe/-/buffer-alloc-unsafe-1.1.0.tgz',
+267 verbose addRemoteTarball   'bd7dc26ae2972d0eda253be061dba992349c19f0' ]
+268 info retry fetch attempt 1 at 3:56:08 PM
+269 info attempt registry request try #1 at 3:56:08 PM
+270 http fetch GET https://registry.npmjs.org/buffer-alloc-unsafe/-/buffer-alloc-unsafe-1.1.0.tgz
+271 http fetch 200 https://registry.npmjs.org/buffer-alloc-unsafe/-/buffer-alloc-unsafe-1.1.0.tgz
+272 silly fetchAndShaCheck shasum bd7dc26ae2972d0eda253be061dba992349c19f0
+273 verbose addTmpTarball /tmp/npm-72878-c72ce3c2/registry.npmjs.org/buffer-alloc-unsafe/-/buffer-alloc-unsafe-1.1.0.tgz not in flight; adding
+274 verbose addTmpTarball already have metadata; skipping unpack for buffer-alloc-unsafe@1.1.0
+275 verbose correctMkdir /home/playground/.npm correctMkdir not in flight; initializing
+276 silly cache afterAdd buffer-alloc-unsafe@1.1.0
+277 verbose afterAdd /home/playground/.npm/buffer-alloc-unsafe/1.1.0/package/package.json not in flight; writing
+278 verbose correctMkdir /home/playground/.npm correctMkdir not in flight; initializing
+279 verbose afterAdd /home/playground/.npm/buffer-alloc-unsafe/1.1.0/package/package.json written
+280 silly fetchNamedPackageData lodash.throttle
+281 silly mapToRegistry name lodash.throttle
+282 silly mapToRegistry using default registry
+283 silly mapToRegistry registry https://registry.npmjs.org/
+284 silly mapToRegistry data Result {
+284 silly mapToRegistry   raw: 'lodash.throttle',
+284 silly mapToRegistry   scope: null,
+284 silly mapToRegistry   escapedName: 'lodash.throttle',
+284 silly mapToRegistry   name: 'lodash.throttle',
+284 silly mapToRegistry   rawSpec: '',
+284 silly mapToRegistry   spec: 'latest',
+284 silly mapToRegistry   type: 'tag' }
+285 silly mapToRegistry uri https://registry.npmjs.org/lodash.throttle
+286 verbose request uri https://registry.npmjs.org/lodash.throttle
+287 verbose request no auth needed
+288 info attempt registry request try #1 at 3:56:08 PM
+289 http request GET https://registry.npmjs.org/lodash.throttle
+290 http 200 https://registry.npmjs.org/lodash.throttle
+291 verbose headers { date: 'Sun, 12 Aug 2018 22:56:03 GMT',
+291 verbose headers   'content-type': 'application/json; charset=UTF-8',
+291 verbose headers   'transfer-encoding': 'chunked',
+291 verbose headers   connection: 'keep-alive',
+291 verbose headers   'set-cookie': [ '__cfduid=d9dc2c74e419a5919a81ac60b2c7c858b1534114563; expires=Mon, 12-Aug-19 22:56:03 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+291 verbose headers   'cache-control': 'max-age=300',
+291 verbose headers   'cf-cache-status': 'HIT',
+291 verbose headers   'cf-ray': '44968875f9f006e8-LHR',
+291 verbose headers   etag: 'W/"6098fe91ba9e2b736c25954873db0d1b"',
+291 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+291 verbose headers   'last-modified': 'Sun, 27 May 2018 06:59:05 GMT',
+291 verbose headers   vary: 'accept-encoding, accept',
+291 verbose headers   server: 'cloudflare',
+291 verbose headers   'content-encoding': 'gzip' }
+292 silly get cb [ 200,
+292 silly get   { date: 'Sun, 12 Aug 2018 22:56:03 GMT',
+292 silly get     'content-type': 'application/json; charset=UTF-8',
+292 silly get     'transfer-encoding': 'chunked',
+292 silly get     connection: 'keep-alive',
+292 silly get     'set-cookie': [ '__cfduid=d9dc2c74e419a5919a81ac60b2c7c858b1534114563; expires=Mon, 12-Aug-19 22:56:03 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+292 silly get     'cache-control': 'max-age=300',
+292 silly get     'cf-cache-status': 'HIT',
+292 silly get     'cf-ray': '44968875f9f006e8-LHR',
+292 silly get     etag: 'W/"6098fe91ba9e2b736c25954873db0d1b"',
+292 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+292 silly get     'last-modified': 'Sun, 27 May 2018 06:59:05 GMT',
+292 silly get     vary: 'accept-encoding, accept',
+292 silly get     server: 'cloudflare',
+292 silly get     'content-encoding': 'gzip' } ]
+293 verbose get saving lodash.throttle to /home/playground/.npm/registry.npmjs.org/lodash.throttle/.cache.json
+294 verbose correctMkdir /home/playground/.npm correctMkdir not in flight; initializing
+295 silly resolveWithNewModule lodash.throttle@4.1.1 checking installable status
+296 silly cache add args [ 'lodash.throttle@^4.1.1', null ]
+297 verbose cache add spec lodash.throttle@^4.1.1
+298 silly cache add parsed spec Result {
+298 silly cache add   raw: 'lodash.throttle@^4.1.1',
+298 silly cache add   scope: null,
+298 silly cache add   escapedName: 'lodash.throttle',
+298 silly cache add   name: 'lodash.throttle',
+298 silly cache add   rawSpec: '^4.1.1',
+298 silly cache add   spec: '>=4.1.1 <5.0.0',
+298 silly cache add   type: 'range' }
+299 silly addNamed lodash.throttle@>=4.1.1 <5.0.0
+300 verbose addNamed ">=4.1.1 <5.0.0" is a valid semver range for lodash.throttle
+301 silly addNameRange { name: 'lodash.throttle',
+301 silly addNameRange   range: '>=4.1.1 <5.0.0',
+301 silly addNameRange   hasData: false }
+302 silly mapToRegistry name lodash.throttle
+303 silly mapToRegistry using default registry
+304 silly mapToRegistry registry https://registry.npmjs.org/
+305 silly mapToRegistry data Result {
+305 silly mapToRegistry   raw: 'lodash.throttle',
+305 silly mapToRegistry   scope: null,
+305 silly mapToRegistry   escapedName: 'lodash.throttle',
+305 silly mapToRegistry   name: 'lodash.throttle',
+305 silly mapToRegistry   rawSpec: '',
+305 silly mapToRegistry   spec: 'latest',
+305 silly mapToRegistry   type: 'tag' }
+306 silly mapToRegistry uri https://registry.npmjs.org/lodash.throttle
+307 verbose addNameRange registry:https://registry.npmjs.org/lodash.throttle not in flight; fetching
+308 verbose get https://registry.npmjs.org/lodash.throttle not expired, no request
+309 silly addNameRange number 2 { name: 'lodash.throttle',
+309 silly addNameRange   range: '>=4.1.1 <5.0.0',
+309 silly addNameRange   hasData: true }
+310 silly addNameRange versions [ 'lodash.throttle',
+310 silly addNameRange   [ '2.0.0',
+310 silly addNameRange     '2.1.0',
+310 silly addNameRange     '2.2.0',
+310 silly addNameRange     '2.2.1',
+310 silly addNameRange     '2.3.0',
+310 silly addNameRange     '2.4.0',
+310 silly addNameRange     '2.4.1',
+310 silly addNameRange     '3.0.0',
+310 silly addNameRange     '3.0.1',
+310 silly addNameRange     '3.0.2',
+310 silly addNameRange     '3.0.3',
+310 silly addNameRange     '3.0.4',
+310 silly addNameRange     '4.0.0',
+310 silly addNameRange     '4.0.1',
+310 silly addNameRange     '4.1.0',
+310 silly addNameRange     '4.1.1' ] ]
+311 silly addNamed lodash.throttle@4.1.1
+312 verbose addNamed "4.1.1" is a plain semver version for lodash.throttle
+313 silly mapToRegistry name lodash.throttle
+314 silly mapToRegistry using default registry
+315 silly mapToRegistry registry https://registry.npmjs.org/
+316 silly mapToRegistry data Result {
+316 silly mapToRegistry   raw: 'lodash.throttle',
+316 silly mapToRegistry   scope: null,
+316 silly mapToRegistry   escapedName: 'lodash.throttle',
+316 silly mapToRegistry   name: 'lodash.throttle',
+316 silly mapToRegistry   rawSpec: '',
+316 silly mapToRegistry   spec: 'latest',
+316 silly mapToRegistry   type: 'tag' }
+317 silly mapToRegistry uri https://registry.npmjs.org/lodash.throttle
+318 verbose addRemoteTarball https://registry.npmjs.org/lodash.throttle/-/lodash.throttle-4.1.1.tgz not in flight; adding
+319 verbose addRemoteTarball [ 'https://registry.npmjs.org/lodash.throttle/-/lodash.throttle-4.1.1.tgz',
+319 verbose addRemoteTarball   'c23e91b710242ac70c37f1e1cda9274cc39bf2f4' ]
+320 info retry fetch attempt 1 at 3:56:08 PM
+321 info attempt registry request try #1 at 3:56:08 PM
+322 http fetch GET https://registry.npmjs.org/lodash.throttle/-/lodash.throttle-4.1.1.tgz
+323 http fetch 200 https://registry.npmjs.org/lodash.throttle/-/lodash.throttle-4.1.1.tgz
+324 silly fetchAndShaCheck shasum c23e91b710242ac70c37f1e1cda9274cc39bf2f4
+325 verbose addTmpTarball /tmp/npm-72878-c72ce3c2/registry.npmjs.org/lodash.throttle/-/lodash.throttle-4.1.1.tgz not in flight; adding
+326 verbose addTmpTarball already have metadata; skipping unpack for lodash.throttle@4.1.1
+327 verbose correctMkdir /home/playground/.npm correctMkdir not in flight; initializing
+328 silly cache afterAdd lodash.throttle@4.1.1
+329 verbose afterAdd /home/playground/.npm/lodash.throttle/4.1.1/package/package.json not in flight; writing
+330 verbose correctMkdir /home/playground/.npm correctMkdir not in flight; initializing
+331 verbose afterAdd /home/playground/.npm/lodash.throttle/4.1.1/package/package.json written
+332 silly loadAllDepsIntoIdealTree Finishing
+333 silly loadIdealTree Finishing
+334 silly currentTree libp2p_playground@1.0.0
+334 silly currentTree ├── @nodeutils/defaults-deep@1.1.0
+334 silly currentTree ├── abs@1.3.12
+334 silly currentTree ├─┬ accept@2.1.4
+334 silly currentTree │ └── hoek@4.2.1
+334 silly currentTree ├── accepts@1.3.5
+334 silly currentTree ├── after@0.8.2
+334 silly currentTree ├─┬ ammo@2.0.4
+334 silly currentTree │ └── hoek@4.2.1
+334 silly currentTree ├── arraybuffer.slice@0.0.7
+334 silly currentTree ├── asn1.js@5.0.1
+334 silly currentTree ├── assert@1.4.1
+334 silly currentTree ├── async-limiter@1.0.0
+334 silly currentTree ├── async@2.6.1
+334 silly currentTree ├── b64@3.0.3
+334 silly currentTree ├── backo2@1.0.2
+334 silly currentTree ├── base-x@3.0.4
+334 silly currentTree ├── base32.js@0.1.0
+334 silly currentTree ├── base64-arraybuffer@0.1.5
+334 silly currentTree ├── base64id@1.0.0
+334 silly currentTree ├── better-assert@1.0.2
+334 silly currentTree ├── big.js@5.1.2
+334 silly currentTree ├── bindings@1.3.0
+334 silly currentTree ├── bintrees@1.0.1
+334 silly currentTree ├── bip66@1.1.5
+334 silly currentTree ├── blakejs@1.1.0
+334 silly currentTree ├── blob@0.0.4
+334 silly currentTree ├── bn.js@4.11.8
+334 silly currentTree ├─┬ boom@5.2.0
+334 silly currentTree │ └── hoek@4.2.1
+334 silly currentTree ├── brorand@1.1.0
+334 silly currentTree ├── browserify-aes@1.2.0
+334 silly currentTree ├── bs58@4.0.1
+334 silly currentTree ├── buffer-alloc-unsafe@1.1.0
+334 silly currentTree ├── buffer-from@1.1.1
+334 silly currentTree ├── buffer-indexof@0.0.2
+334 silly currentTree ├── buffer-split@1.0.0
+334 silly currentTree ├── buffer-xor@1.0.3
+334 silly currentTree ├── builtin-modules@1.1.1
+334 silly currentTree ├─┬ call@4.0.2
+334 silly currentTree │ └── hoek@4.2.1
+334 silly currentTree ├── callsite@1.0.0
+334 silly currentTree ├── capture-stack-trace@1.0.0
+334 silly currentTree ├─┬ catbox-memory@2.0.4
+334 silly currentTree │ └── hoek@4.2.1
+334 silly currentTree ├─┬ catbox@7.1.5
+334 silly currentTree │ ├── hoek@4.2.1
+334 silly currentTree │ ├── isemail@2.2.1
+334 silly currentTree │ ├── joi@10.6.0
+334 silly currentTree │ └── topo@2.0.2
+334 silly currentTree ├── chunky@0.0.0
+334 silly currentTree ├── cids@0.5.3
+334 silly currentTree ├── cipher-base@1.0.4
+334 silly currentTree ├── class-is@1.1.0
+334 silly currentTree ├── component-bind@1.0.0
+334 silly currentTree ├── component-emitter@1.2.1
+334 silly currentTree ├── component-inherit@0.0.3
+334 silly currentTree ├── concat-stream@1.6.2
+334 silly currentTree ├── content@3.0.7
+334 silly currentTree ├── cookie@0.3.1
+334 silly currentTree ├── core-util-is@1.0.2
+334 silly currentTree ├── create-error-class@3.0.2
+334 silly currentTree ├── create-hash@1.2.0
+334 silly currentTree ├── create-hmac@1.1.7
+334 silly currentTree ├── cryptiles@3.1.2
+334 silly currentTree ├── data-queue@0.0.3
+334 silly currentTree ├── debug@3.1.0
+334 silly currentTree ├── deep-extend@0.6.0
+334 silly currentTree ├── deffy@2.2.2
+334 silly currentTree ├── detect-node@2.0.3
+334 silly currentTree ├── dns-packet@4.2.0
+334 silly currentTree ├── drbg.js@1.0.1
+334 silly currentTree ├── duplexer2@0.1.4
+334 silly currentTree ├── duplexify@3.6.0
+334 silly currentTree ├── elliptic@6.4.1
+334 silly currentTree ├── end-of-stream@1.4.1
+334 silly currentTree ├─┬ engine.io-client@3.2.1
+334 silly currentTree │ ├── ultron@1.1.1
+334 silly currentTree │ └── ws@3.3.3
+334 silly currentTree ├── engine.io-parser@2.1.2
+334 silly currentTree ├─┬ engine.io@3.2.0
+334 silly currentTree │ ├── ultron@1.1.1
+334 silly currentTree │ └── ws@3.3.3
+334 silly currentTree ├── epimetheus@1.0.55
+334 silly currentTree ├── err@1.1.1
+334 silly currentTree ├── error-ex@1.3.2
+334 silly currentTree ├── evp_bytestokey@1.0.3
+334 silly currentTree ├── exec-limiter@3.2.11
+334 silly currentTree ├── function.name@1.0.10
+334 silly currentTree ├── get-browser-rtc@1.0.2
+334 silly currentTree ├── git-package-json@1.4.8
+334 silly currentTree ├── git-source@1.1.8
+334 silly currentTree ├── git-up@1.2.1
+334 silly currentTree ├── git-url-parse@5.0.1
+334 silly currentTree ├─┬ got@5.7.1
+334 silly currentTree │ └── object-assign@4.1.1
+334 silly currentTree ├── gry@5.0.7
+334 silly currentTree ├─┬ hapi@16.6.3
+334 silly currentTree │ ├── hoek@4.2.1
+334 silly currentTree │ ├── joi@11.4.0
+334 silly currentTree │ └── topo@2.0.2
+334 silly currentTree ├─┬ has-binary2@1.0.3
+334 silly currentTree │ └── isarray@2.0.1
+334 silly currentTree ├── has-cors@1.1.0
+334 silly currentTree ├── hash-base@3.0.4
+334 silly currentTree ├── hash.js@1.1.5
+334 silly currentTree ├── hashlru@2.2.1
+334 silly currentTree ├── heap@0.2.6
+334 silly currentTree ├─┬ heavy@4.0.4
+334 silly currentTree │ ├── hoek@4.2.1
+334 silly currentTree │ ├── isemail@2.2.1
+334 silly currentTree │ ├── joi@10.6.0
+334 silly currentTree │ └── topo@2.0.2
+334 silly currentTree ├── hmac-drbg@1.0.1
+334 silly currentTree ├── hoek@5.0.4
+334 silly currentTree ├── hosted-git-info@2.7.1
+334 silly currentTree ├── hpack.js@2.1.6
+334 silly currentTree ├── indexof@0.0.1
+334 silly currentTree ├─┬ inert@4.2.1
+334 silly currentTree │ ├── hoek@4.2.1
+334 silly currentTree │ ├── isemail@2.2.1
+334 silly currentTree │ ├── joi@10.6.0
+334 silly currentTree │ └── topo@2.0.2
+334 silly currentTree ├── inherits@2.0.3
+334 silly currentTree ├── ini@1.3.5
+334 silly currentTree ├── interface-connection@0.3.2
+334 silly currentTree ├── interface-datastore@0.4.2
+334 silly currentTree ├── ip-address@5.8.9
+334 silly currentTree ├── ip@1.1.5
+334 silly currentTree ├─┬ iron@4.0.5
+334 silly currentTree │ └── hoek@4.2.1
+334 silly currentTree ├── is-arrayish@0.2.1
+334 silly currentTree ├── is-builtin-module@1.0.0
+334 silly currentTree ├── is-promise@1.0.1
+334 silly currentTree ├── is-redirect@1.0.0
+334 silly currentTree ├── is-retry-allowed@1.1.0
+334 silly currentTree ├── is-ssh@1.3.0
+334 silly currentTree ├── is-stream@1.1.0
+334 silly currentTree ├── isarray@1.0.0
+334 silly currentTree ├── isemail@3.1.3
+334 silly currentTree ├── items@2.1.1
+334 silly currentTree ├── iterate-object@1.3.2
+334 silly currentTree ├── joi-browser@13.4.0
+334 silly currentTree ├── joi@13.6.0
+334 silly currentTree ├── js-sha3@0.7.0
+334 silly currentTree ├── jsbn@1.1.0
+334 silly currentTree ├── k-bucket@4.0.1
+334 silly currentTree ├── keypair@1.0.1
+334 silly currentTree ├─┬ latency-monitor@0.2.1
+334 silly currentTree │ └── debug@2.6.9
+334 silly currentTree ├── left-pad@1.3.0
+334 silly currentTree ├── length-prefixed-stream@1.6.0
+334 silly currentTree ├─┬ libp2p-bootstrap@0.9.3
+334 silly currentTree │ ├── libp2p-crypto@0.12.1
+334 silly currentTree │ └── peer-id@0.10.7
+334 silly currentTree ├─┬ libp2p-circuit@0.2.0
+334 silly currentTree │ ├── libp2p-crypto@0.12.1
+334 silly currentTree │ ├── multiaddr@4.0.0
+334 silly currentTree │ └── peer-id@0.10.7
+334 silly currentTree ├── libp2p-connection-manager@0.0.2
+334 silly currentTree ├── libp2p-crypto-secp256k1@0.2.2
+334 silly currentTree ├── libp2p-crypto@0.13.0
+334 silly currentTree ├── libp2p-floodsub@0.15.0
+334 silly currentTree ├─┬ libp2p-identify@0.7.2
+334 silly currentTree │ ├── libp2p-crypto@0.12.1
+334 silly currentTree │ └── peer-id@0.10.7
+334 silly currentTree ├─┬ libp2p-kad-dht@0.10.1
+334 silly currentTree │ └── multihashing-async@0.5.1
+334 silly currentTree ├─┬ libp2p-mdns@0.12.0
+334 silly currentTree │ ├── libp2p-crypto@0.12.1
+334 silly currentTree │ └── peer-id@0.10.7
+334 silly currentTree ├── libp2p-mplex@0.8.0
+334 silly currentTree ├── libp2p-ping@0.8.0
+334 silly currentTree ├── libp2p-pnet@0.1.0
+334 silly currentTree ├─┬ libp2p-railing@0.9.2
+334 silly currentTree │ ├── libp2p-crypto@0.12.1
+334 silly currentTree │ └── peer-id@0.10.7
+334 silly currentTree ├─┬ libp2p-record@0.5.1
+334 silly currentTree │ ├── libp2p-crypto@0.12.1
+334 silly currentTree │ └── peer-id@0.10.7
+334 silly currentTree ├─┬ libp2p-secio@0.10.0
+334 silly currentTree │ ├── libp2p-crypto@0.12.1
+334 silly currentTree │ └── peer-id@0.10.7
+334 silly currentTree ├── libp2p-spdy@0.12.1
+334 silly currentTree ├─┬ libp2p-switch@0.40.7
+334 silly currentTree │ ├── libp2p-crypto@0.12.1
+334 silly currentTree │ └── peer-id@0.10.7
+334 silly currentTree ├─┬ libp2p-tcp@0.12.1
+334 silly currentTree │ └── multiaddr@4.0.0
+334 silly currentTree ├─┬ libp2p-webrtc-star@0.15.3
+334 silly currentTree │ ├── libp2p-crypto@0.12.1
+334 silly currentTree │ └── peer-id@0.10.7
+334 silly currentTree ├─┬ libp2p-websocket-star@0.8.1
+334 silly currentTree │ └─┬ peer-id@0.10.7
+334 silly currentTree │   └── libp2p-crypto@0.12.1
+334 silly currentTree ├── libp2p-websockets@0.12.0
+334 silly currentTree ├── libp2p@0.23.0
+334 silly currentTree ├── limit-it@3.2.8
+334 silly currentTree ├── lodash.filter@4.6.0
+334 silly currentTree ├── lodash.find@4.6.0
+334 silly currentTree ├── lodash.includes@4.3.0
+334 silly currentTree ├── lodash.isfunction@3.0.9
+334 silly currentTree ├── lodash.map@4.6.0
+334 silly currentTree ├── lodash.max@4.0.1
+334 silly currentTree ├── lodash.merge@4.6.1
+334 silly currentTree ├── lodash.noop@3.0.1
+334 silly currentTree ├── lodash.padstart@4.6.1
+334 silly currentTree ├── lodash.range@3.2.0
+334 silly currentTree ├── lodash.repeat@4.1.0
+334 silly currentTree ├── lodash.throttle@4.1.1
+334 silly currentTree ├── lodash.uniqby@4.7.0
+334 silly currentTree ├── lodash.values@4.3.0
+334 silly currentTree ├── lodash@4.17.10
+334 silly currentTree ├── looper@3.0.0
+334 silly currentTree ├── lowercase-keys@1.0.1
+334 silly currentTree ├── lru-cache@4.1.3
+334 silly currentTree ├─┬ mafmt@6.0.0
+334 silly currentTree │ └── multiaddr@4.0.0
+334 silly currentTree ├── md5.js@1.3.4
+334 silly currentTree ├── merge-recursive@0.0.3
+334 silly currentTree ├── mime-db@1.35.0
+334 silly currentTree ├── mime-types@2.1.19
+334 silly currentTree ├─┬ mimos@3.0.3
+334 silly currentTree │ └── hoek@4.2.1
+334 silly currentTree ├── minimalistic-assert@1.0.1
+334 silly currentTree ├── minimalistic-crypto-utils@1.0.1
+334 silly currentTree ├── minimist@1.2.0
+334 silly currentTree ├── moving-average@1.0.0
+334 silly currentTree ├── ms@2.0.0
+334 silly currentTree ├── multiaddr@5.0.0
+334 silly currentTree ├── multibase@0.4.0
+334 silly currentTree ├── multicast-dns@7.0.0
+334 silly currentTree ├── multicodec@0.2.7
+334 silly currentTree ├── multihashes@0.4.14
+334 silly currentTree ├── multihashing-async@0.4.8
+334 silly currentTree ├── multistream-select@0.14.2
+334 silly currentTree ├── murmurhash3js@3.0.1
+334 silly currentTree ├── nan@2.10.0
+334 silly currentTree ├── negotiator@0.6.1
+334 silly currentTree ├─┬ nigel@2.0.2
+334 silly currentTree │ └── hoek@4.2.1
+334 silly currentTree ├── node-forge@0.7.5
+334 silly currentTree ├── node-status-codes@1.0.0
+334 silly currentTree ├── nodeify@1.0.1
+334 silly currentTree ├── noop6@1.0.7
+334 silly currentTree ├── normalize-package-data@2.4.0
+334 silly currentTree ├── oargv@3.4.8
+334 silly currentTree ├── obj-def@1.0.6
+334 silly currentTree ├── object-assign@2.1.1
+334 silly currentTree ├── object-component@0.0.3
+334 silly currentTree ├── obuf@1.1.2
+334 silly currentTree ├── once@1.4.0
+334 silly currentTree ├── one-by-one@3.2.6
+334 silly currentTree ├── optimist@0.3.7
+334 silly currentTree ├── options@0.0.6
+334 silly currentTree ├── os-tmpdir@1.0.2
+334 silly currentTree ├── package-json-path@1.0.7
+334 silly currentTree ├── package-json@2.4.0
+334 silly currentTree ├── package.json@2.0.1
+334 silly currentTree ├── parse-json@2.2.0
+334 silly currentTree ├── parse-url@1.3.11
+334 silly currentTree ├── parseqs@0.0.5
+334 silly currentTree ├── parseuri@0.0.5
+334 silly currentTree ├─┬ peer-book@0.8.0
+334 silly currentTree │ ├── libp2p-crypto@0.12.1
+334 silly currentTree │ └── peer-id@0.10.7
+334 silly currentTree ├── peer-id@0.11.0
+334 silly currentTree ├─┬ peer-info@0.14.1
+334 silly currentTree │ ├── libp2p-crypto@0.12.1
+334 silly currentTree │ ├── multiaddr@4.0.0
+334 silly currentTree │ └── peer-id@0.10.7
+334 silly currentTree ├─┬ pem-jwk@1.5.1
+334 silly currentTree │ ├── asn1.js@1.0.3
+334 silly currentTree │ └── bn.js@1.3.0
+334 silly currentTree ├─┬ pez@2.1.5
+334 silly currentTree │ └── hoek@4.2.1
+334 silly currentTree ├── pinkie-promise@2.0.1
+334 silly currentTree ├── pinkie@2.0.4
+334 silly currentTree ├─┬ podium@1.3.0
+334 silly currentTree │ ├── hoek@4.2.1
+334 silly currentTree │ ├── isemail@2.2.1
+334 silly currentTree │ ├── joi@10.6.0
+334 silly currentTree │ └── topo@2.0.2
+334 silly currentTree ├── prepend-http@1.0.4
+334 silly currentTree ├── priorityqueue@0.2.1
+334 silly currentTree ├── process-nextick-args@2.0.0
+334 silly currentTree ├── prom-client@10.2.3
+334 silly currentTree ├── promise@1.3.0
+334 silly currentTree ├── protocol-buffers-schema@3.3.2
+334 silly currentTree ├── protocols@1.4.6
+334 silly currentTree ├── protons@1.0.1
+334 silly currentTree ├── pseudomap@1.0.2
+334 silly currentTree ├── pull-abortable@4.1.1
+334 silly currentTree ├── pull-cat@1.1.11
+334 silly currentTree ├── pull-catch@1.0.0
+334 silly currentTree ├── pull-defer@0.2.2
+334 silly currentTree ├── pull-handshake@1.1.4
+334 silly currentTree ├── pull-length-prefixed@1.3.1
+334 silly currentTree ├── pull-pair@1.1.0
+334 silly currentTree ├── pull-pushable@2.2.0
+334 silly currentTree ├── pull-reader@1.3.1
+334 silly currentTree ├── pull-stream-to-stream@1.3.4
+334 silly currentTree ├── pull-stream@3.6.8
+334 silly currentTree ├── pull-ws@3.3.1
+334 silly currentTree ├── pump@3.0.0
+334 silly currentTree ├── punycode@2.1.1
+334 silly currentTree ├── r-json@1.2.8
+334 silly currentTree ├── r-package-json@1.0.7
+334 silly currentTree ├── randombytes@2.0.6
+334 silly currentTree ├── rc@1.2.8
+334 silly currentTree ├── read-all-stream@3.1.0
+334 silly currentTree ├── readable-stream@2.3.6
+334 silly currentTree ├── registry-auth-token@3.3.2
+334 silly currentTree ├── registry-url@3.1.0
+334 silly currentTree ├── relative-url@1.0.2
+334 silly currentTree ├── ripemd160@2.0.2
+334 silly currentTree ├── rsa-pem-to-jwk@1.1.3
+334 silly currentTree ├── rsa-unpack@0.0.6
+334 silly currentTree ├── safe-buffer@5.1.2
+334 silly currentTree ├── secp256k1@3.5.0
+334 silly currentTree ├── semver@5.5.0
+334 silly currentTree ├── setimmediate@1.0.5
+334 silly currentTree ├── sha.js@2.4.11
+334 silly currentTree ├─┬ shot@3.4.2
+334 silly currentTree │ ├── hoek@4.2.1
+334 silly currentTree │ ├── isemail@2.2.1
+334 silly currentTree │ ├── joi@10.6.0
+334 silly currentTree │ └── topo@2.0.2
+334 silly currentTree ├── signed-varint@2.0.1
+334 silly currentTree ├── simple-peer@9.1.2
+334 silly currentTree ├── sliced@1.0.1
+334 silly currentTree ├── socket.io-adapter@1.1.1
+334 silly currentTree ├── socket.io-client@2.1.1
+334 silly currentTree ├─┬ socket.io-parser@3.2.0
+334 silly currentTree │ └── isarray@2.0.1
+334 silly currentTree ├── socket.io-pull-stream@0.1.5
+334 silly currentTree ├── socket.io@2.1.1
+334 silly currentTree ├── spdx-correct@3.0.0
+334 silly currentTree ├── spdx-exceptions@2.1.0
+334 silly currentTree ├── spdx-expression-parse@3.0.0
+334 silly currentTree ├── spdx-license-ids@3.0.0
+334 silly currentTree ├─┬ spdy-transport@2.1.0
+334 silly currentTree │ └── debug@2.6.9
+334 silly currentTree ├── sprintf-js@1.1.0
+334 silly currentTree ├─┬ statehood@5.0.3
+334 silly currentTree │ ├── hoek@4.2.1
+334 silly currentTree │ ├── isemail@2.2.1
+334 silly currentTree │ ├── joi@10.6.0
+334 silly currentTree │ └── topo@2.0.2
+334 silly currentTree ├── stream-shift@1.0.0
+334 silly currentTree ├── stream-to-pull-stream@1.7.2
+334 silly currentTree ├── string_decoder@1.1.1
+334 silly currentTree ├── strip-json-comments@2.0.1
+334 silly currentTree ├─┬ subtext@5.0.0
+334 silly currentTree │ └── hoek@4.2.1
+334 silly currentTree ├── tdigest@0.1.1
+334 silly currentTree ├── through2@2.0.3
+334 silly currentTree ├── thunky@1.0.2
+334 silly currentTree ├── time-cache@0.3.0
+334 silly currentTree ├── timed-out@3.1.3
+334 silly currentTree ├── timed-tape@0.1.1
+334 silly currentTree ├── tmp@0.0.28
+334 silly currentTree ├── to-array@0.1.4
+334 silly currentTree ├── topo@3.0.0
+334 silly currentTree ├── tweetnacl@1.0.0
+334 silly currentTree ├── typedarray@0.0.6
+334 silly currentTree ├── typpy@2.3.10
+334 silly currentTree ├── ul@5.2.13
+334 silly currentTree ├── ultron@1.0.2
+334 silly currentTree ├── unzip-response@1.0.2
+334 silly currentTree ├── url-parse-lax@1.0.0
+334 silly currentTree ├── util-deprecate@1.0.2
+334 silly currentTree ├─┬ util@0.10.3
+334 silly currentTree │ └── inherits@2.0.1
+334 silly currentTree ├── uuid@3.3.2
+334 silly currentTree ├── validate-npm-package-license@3.0.4
+334 silly currentTree ├── varint@5.0.0
+334 silly currentTree ├─┬ vise@2.0.2
+334 silly currentTree │ └── hoek@4.2.1
+334 silly currentTree ├── wbuf@1.7.3
+334 silly currentTree ├── webcrypto-shim@0.1.1
+334 silly currentTree ├── webrtcsupport@2.2.0
+334 silly currentTree ├── wordwrap@0.0.3
+334 silly currentTree ├── wrappy@1.0.2
+334 silly currentTree ├─┬ wreck@12.5.1
+334 silly currentTree │ └── hoek@4.2.1
+334 silly currentTree ├── ws@1.1.5
+334 silly currentTree ├── xmlhttprequest-ssl@1.5.5
+334 silly currentTree ├── xor-distance@1.0.0
+334 silly currentTree ├── xsalsa20@1.0.2
+334 silly currentTree ├── xtend@4.0.1
+334 silly currentTree ├── yallist@2.1.2
+334 silly currentTree └── yeast@0.1.2
+335 silly idealTree libp2p_playground@1.0.0
+335 silly idealTree ├── @nodeutils/defaults-deep@1.1.0
+335 silly idealTree ├── abs@1.3.12
+335 silly idealTree ├─┬ accept@2.1.4
+335 silly idealTree │ └── hoek@4.2.1
+335 silly idealTree ├── accepts@1.3.5
+335 silly idealTree ├── after@0.8.2
+335 silly idealTree ├─┬ ammo@2.0.4
+335 silly idealTree │ └── hoek@4.2.1
+335 silly idealTree ├── arraybuffer.slice@0.0.7
+335 silly idealTree ├── asn1.js@5.0.1
+335 silly idealTree ├── assert@1.4.1
+335 silly idealTree ├── async-limiter@1.0.0
+335 silly idealTree ├── async@2.6.1
+335 silly idealTree ├── b64@3.0.3
+335 silly idealTree ├── backo2@1.0.2
+335 silly idealTree ├── base-x@3.0.4
+335 silly idealTree ├── base32.js@0.1.0
+335 silly idealTree ├── base64-arraybuffer@0.1.5
+335 silly idealTree ├── base64id@1.0.0
+335 silly idealTree ├── better-assert@1.0.2
+335 silly idealTree ├── big.js@5.1.2
+335 silly idealTree ├── bindings@1.3.0
+335 silly idealTree ├── bintrees@1.0.1
+335 silly idealTree ├── bip66@1.1.5
+335 silly idealTree ├── blakejs@1.1.0
+335 silly idealTree ├── blob@0.0.4
+335 silly idealTree ├── bn.js@4.11.8
+335 silly idealTree ├─┬ boom@5.2.0
+335 silly idealTree │ └── hoek@4.2.1
+335 silly idealTree ├── brorand@1.1.0
+335 silly idealTree ├── browserify-aes@1.2.0
+335 silly idealTree ├── bs58@4.0.1
+335 silly idealTree ├── buffer-alloc-unsafe@1.1.0
+335 silly idealTree ├── buffer-from@1.1.1
+335 silly idealTree ├── buffer-indexof@0.0.2
+335 silly idealTree ├── buffer-split@1.0.0
+335 silly idealTree ├── buffer-xor@1.0.3
+335 silly idealTree ├── builtin-modules@1.1.1
+335 silly idealTree ├─┬ call@4.0.2
+335 silly idealTree │ └── hoek@4.2.1
+335 silly idealTree ├── callsite@1.0.0
+335 silly idealTree ├── capture-stack-trace@1.0.0
+335 silly idealTree ├─┬ catbox-memory@2.0.4
+335 silly idealTree │ └── hoek@4.2.1
+335 silly idealTree ├─┬ catbox@7.1.5
+335 silly idealTree │ ├── hoek@4.2.1
+335 silly idealTree │ ├── isemail@2.2.1
+335 silly idealTree │ ├── joi@10.6.0
+335 silly idealTree │ └── topo@2.0.2
+335 silly idealTree ├── chunky@0.0.0
+335 silly idealTree ├── cids@0.5.3
+335 silly idealTree ├── cipher-base@1.0.4
+335 silly idealTree ├── class-is@1.1.0
+335 silly idealTree ├── component-bind@1.0.0
+335 silly idealTree ├── component-emitter@1.2.1
+335 silly idealTree ├── component-inherit@0.0.3
+335 silly idealTree ├── concat-stream@1.6.2
+335 silly idealTree ├── content@3.0.7
+335 silly idealTree ├── cookie@0.3.1
+335 silly idealTree ├── core-util-is@1.0.2
+335 silly idealTree ├── create-error-class@3.0.2
+335 silly idealTree ├── create-hash@1.2.0
+335 silly idealTree ├── create-hmac@1.1.7
+335 silly idealTree ├── cryptiles@3.1.2
+335 silly idealTree ├── data-queue@0.0.3
+335 silly idealTree ├── debug@3.1.0
+335 silly idealTree ├── deep-extend@0.6.0
+335 silly idealTree ├── deffy@2.2.2
+335 silly idealTree ├── detect-node@2.0.3
+335 silly idealTree ├── dns-packet@4.2.0
+335 silly idealTree ├── drbg.js@1.0.1
+335 silly idealTree ├── duplexer2@0.1.4
+335 silly idealTree ├── duplexify@3.6.0
+335 silly idealTree ├── elliptic@6.4.1
+335 silly idealTree ├── end-of-stream@1.4.1
+335 silly idealTree ├─┬ engine.io-client@3.2.1
+335 silly idealTree │ ├── ultron@1.1.1
+335 silly idealTree │ └── ws@3.3.3
+335 silly idealTree ├── engine.io-parser@2.1.2
+335 silly idealTree ├─┬ engine.io@3.2.0
+335 silly idealTree │ ├── ultron@1.1.1
+335 silly idealTree │ └── ws@3.3.3
+335 silly idealTree ├── epimetheus@1.0.55
+335 silly idealTree ├── err@1.1.1
+335 silly idealTree ├── error-ex@1.3.2
+335 silly idealTree ├── evp_bytestokey@1.0.3
+335 silly idealTree ├── exec-limiter@3.2.11
+335 silly idealTree ├── function.name@1.0.10
+335 silly idealTree ├── get-browser-rtc@1.0.2
+335 silly idealTree ├── git-package-json@1.4.8
+335 silly idealTree ├── git-source@1.1.8
+335 silly idealTree ├── git-up@1.2.1
+335 silly idealTree ├── git-url-parse@5.0.1
+335 silly idealTree ├─┬ got@5.7.1
+335 silly idealTree │ └── object-assign@4.1.1
+335 silly idealTree ├── gry@5.0.7
+335 silly idealTree ├─┬ hapi@16.6.3
+335 silly idealTree │ ├── hoek@4.2.1
+335 silly idealTree │ ├── joi@11.4.0
+335 silly idealTree │ └── topo@2.0.2
+335 silly idealTree ├─┬ has-binary2@1.0.3
+335 silly idealTree │ └── isarray@2.0.1
+335 silly idealTree ├── has-cors@1.1.0
+335 silly idealTree ├── hash-base@3.0.4
+335 silly idealTree ├── hash.js@1.1.5
+335 silly idealTree ├── hashlru@2.2.1
+335 silly idealTree ├── heap@0.2.6
+335 silly idealTree ├─┬ heavy@4.0.4
+335 silly idealTree │ ├── hoek@4.2.1
+335 silly idealTree │ ├── isemail@2.2.1
+335 silly idealTree │ ├── joi@10.6.0
+335 silly idealTree │ └── topo@2.0.2
+335 silly idealTree ├── hmac-drbg@1.0.1
+335 silly idealTree ├── hoek@5.0.4
+335 silly idealTree ├── hosted-git-info@2.7.1
+335 silly idealTree ├── hpack.js@2.1.6
+335 silly idealTree ├── indexof@0.0.1
+335 silly idealTree ├─┬ inert@4.2.1
+335 silly idealTree │ ├── hoek@4.2.1
+335 silly idealTree │ ├── isemail@2.2.1
+335 silly idealTree │ ├── joi@10.6.0
+335 silly idealTree │ └── topo@2.0.2
+335 silly idealTree ├── inherits@2.0.3
+335 silly idealTree ├── ini@1.3.5
+335 silly idealTree ├── interface-connection@0.3.2
+335 silly idealTree ├── interface-datastore@0.4.2
+335 silly idealTree ├── ip-address@5.8.9
+335 silly idealTree ├── ip@1.1.5
+335 silly idealTree ├─┬ iron@4.0.5
+335 silly idealTree │ └── hoek@4.2.1
+335 silly idealTree ├── is-arrayish@0.2.1
+335 silly idealTree ├── is-builtin-module@1.0.0
+335 silly idealTree ├── is-promise@1.0.1
+335 silly idealTree ├── is-redirect@1.0.0
+335 silly idealTree ├── is-retry-allowed@1.1.0
+335 silly idealTree ├── is-ssh@1.3.0
+335 silly idealTree ├── is-stream@1.1.0
+335 silly idealTree ├── isarray@1.0.0
+335 silly idealTree ├── isemail@3.1.3
+335 silly idealTree ├── items@2.1.1
+335 silly idealTree ├── iterate-object@1.3.2
+335 silly idealTree ├── joi-browser@13.4.0
+335 silly idealTree ├── joi@13.6.0
+335 silly idealTree ├── js-sha3@0.7.0
+335 silly idealTree ├── jsbn@1.1.0
+335 silly idealTree ├── k-bucket@4.0.1
+335 silly idealTree ├── keypair@1.0.1
+335 silly idealTree ├─┬ latency-monitor@0.2.1
+335 silly idealTree │ └── debug@2.6.9
+335 silly idealTree ├── left-pad@1.3.0
+335 silly idealTree ├── length-prefixed-stream@1.6.0
+335 silly idealTree ├─┬ libp2p-bootstrap@0.9.3
+335 silly idealTree │ ├── libp2p-crypto@0.12.1
+335 silly idealTree │ └── peer-id@0.10.7
+335 silly idealTree ├─┬ libp2p-circuit@0.2.0
+335 silly idealTree │ ├── libp2p-crypto@0.12.1
+335 silly idealTree │ ├── multiaddr@4.0.0
+335 silly idealTree │ └── peer-id@0.10.7
+335 silly idealTree ├── libp2p-connection-manager@0.0.2
+335 silly idealTree ├── libp2p-crypto-secp256k1@0.2.2
+335 silly idealTree ├── libp2p-crypto@0.13.0
+335 silly idealTree ├── libp2p-floodsub@0.15.0
+335 silly idealTree ├─┬ libp2p-identify@0.7.2
+335 silly idealTree │ ├── libp2p-crypto@0.12.1
+335 silly idealTree │ └── peer-id@0.10.7
+335 silly idealTree ├─┬ libp2p-kad-dht@0.10.1
+335 silly idealTree │ └── multihashing-async@0.5.1
+335 silly idealTree ├─┬ libp2p-mdns@0.12.0
+335 silly idealTree │ ├── libp2p-crypto@0.12.1
+335 silly idealTree │ └── peer-id@0.10.7
+335 silly idealTree ├── libp2p-mplex@0.8.0
+335 silly idealTree ├── libp2p-ping@0.8.0
+335 silly idealTree ├── libp2p-pnet@0.1.0
+335 silly idealTree ├─┬ libp2p-railing@0.9.2
+335 silly idealTree │ ├── libp2p-crypto@0.12.1
+335 silly idealTree │ └── peer-id@0.10.7
+335 silly idealTree ├─┬ libp2p-record@0.5.1
+335 silly idealTree │ ├── libp2p-crypto@0.12.1
+335 silly idealTree │ └── peer-id@0.10.7
+335 silly idealTree ├─┬ libp2p-secio@0.10.0
+335 silly idealTree │ ├── libp2p-crypto@0.12.1
+335 silly idealTree │ └── peer-id@0.10.7
+335 silly idealTree ├── libp2p-spdy@0.12.1
+335 silly idealTree ├─┬ libp2p-switch@0.40.7
+335 silly idealTree │ ├── libp2p-crypto@0.12.1
+335 silly idealTree │ └── peer-id@0.10.7
+335 silly idealTree ├─┬ libp2p-tcp@0.12.1
+335 silly idealTree │ └── multiaddr@4.0.0
+335 silly idealTree ├─┬ libp2p-webrtc-star@0.15.3
+335 silly idealTree │ ├── libp2p-crypto@0.12.1
+335 silly idealTree │ └── peer-id@0.10.7
+335 silly idealTree ├─┬ libp2p-websocket-star@0.8.1
+335 silly idealTree │ └─┬ peer-id@0.10.7
+335 silly idealTree │   └── libp2p-crypto@0.12.1
+335 silly idealTree ├── libp2p-websockets@0.12.0
+335 silly idealTree ├── libp2p@0.23.0
+335 silly idealTree ├── limit-it@3.2.8
+335 silly idealTree ├── lodash.filter@4.6.0
+335 silly idealTree ├── lodash.find@4.6.0
+335 silly idealTree ├── lodash.includes@4.3.0
+335 silly idealTree ├── lodash.isfunction@3.0.9
+335 silly idealTree ├── lodash.map@4.6.0
+335 silly idealTree ├── lodash.max@4.0.1
+335 silly idealTree ├── lodash.merge@4.6.1
+335 silly idealTree ├── lodash.noop@3.0.1
+335 silly idealTree ├── lodash.padstart@4.6.1
+335 silly idealTree ├── lodash.range@3.2.0
+335 silly idealTree ├── lodash.repeat@4.1.0
+335 silly idealTree ├── lodash.throttle@4.1.1
+335 silly idealTree ├── lodash.uniqby@4.7.0
+335 silly idealTree ├── lodash.values@4.3.0
+335 silly idealTree ├── lodash@4.17.10
+335 silly idealTree ├── looper@3.0.0
+335 silly idealTree ├── lowercase-keys@1.0.1
+335 silly idealTree ├── lru-cache@4.1.3
+335 silly idealTree ├─┬ mafmt@6.0.0
+335 silly idealTree │ └── multiaddr@4.0.0
+335 silly idealTree ├── md5.js@1.3.4
+335 silly idealTree ├── merge-recursive@0.0.3
+335 silly idealTree ├── mime-db@1.35.0
+335 silly idealTree ├── mime-types@2.1.19
+335 silly idealTree ├─┬ mimos@3.0.3
+335 silly idealTree │ └── hoek@4.2.1
+335 silly idealTree ├── minimalistic-assert@1.0.1
+335 silly idealTree ├── minimalistic-crypto-utils@1.0.1
+335 silly idealTree ├── minimist@1.2.0
+335 silly idealTree ├── moving-average@1.0.0
+335 silly idealTree ├── ms@2.0.0
+335 silly idealTree ├── multiaddr@5.0.0
+335 silly idealTree ├── multibase@0.4.0
+335 silly idealTree ├── multicast-dns@7.0.0
+335 silly idealTree ├── multicodec@0.2.7
+335 silly idealTree ├── multihashes@0.4.14
+335 silly idealTree ├── multihashing-async@0.4.8
+335 silly idealTree ├── multistream-select@0.14.2
+335 silly idealTree ├── murmurhash3js@3.0.1
+335 silly idealTree ├── nan@2.10.0
+335 silly idealTree ├── negotiator@0.6.1
+335 silly idealTree ├─┬ nigel@2.0.2
+335 silly idealTree │ └── hoek@4.2.1
+335 silly idealTree ├── node-forge@0.7.5
+335 silly idealTree ├── node-status-codes@1.0.0
+335 silly idealTree ├── nodeify@1.0.1
+335 silly idealTree ├── noop6@1.0.7
+335 silly idealTree ├── normalize-package-data@2.4.0
+335 silly idealTree ├── oargv@3.4.8
+335 silly idealTree ├── obj-def@1.0.6
+335 silly idealTree ├── object-assign@2.1.1
+335 silly idealTree ├── object-component@0.0.3
+335 silly idealTree ├── obuf@1.1.2
+335 silly idealTree ├── once@1.4.0
+335 silly idealTree ├── one-by-one@3.2.6
+335 silly idealTree ├── optimist@0.3.7
+335 silly idealTree ├── options@0.0.6
+335 silly idealTree ├── os-tmpdir@1.0.2
+335 silly idealTree ├── package-json-path@1.0.7
+335 silly idealTree ├── package-json@2.4.0
+335 silly idealTree ├── package.json@2.0.1
+335 silly idealTree ├── parse-json@2.2.0
+335 silly idealTree ├── parse-url@1.3.11
+335 silly idealTree ├── parseqs@0.0.5
+335 silly idealTree ├── parseuri@0.0.5
+335 silly idealTree ├─┬ peer-book@0.8.0
+335 silly idealTree │ ├── libp2p-crypto@0.12.1
+335 silly idealTree │ └── peer-id@0.10.7
+335 silly idealTree ├── peer-id@0.11.0
+335 silly idealTree ├─┬ peer-info@0.14.1
+335 silly idealTree │ ├── libp2p-crypto@0.12.1
+335 silly idealTree │ ├── multiaddr@4.0.0
+335 silly idealTree │ └── peer-id@0.10.7
+335 silly idealTree ├─┬ pem-jwk@1.5.1
+335 silly idealTree │ ├── asn1.js@1.0.3
+335 silly idealTree │ └── bn.js@1.3.0
+335 silly idealTree ├─┬ pez@2.1.5
+335 silly idealTree │ └── hoek@4.2.1
+335 silly idealTree ├── pinkie-promise@2.0.1
+335 silly idealTree ├── pinkie@2.0.4
+335 silly idealTree ├─┬ podium@1.3.0
+335 silly idealTree │ ├── hoek@4.2.1
+335 silly idealTree │ ├── isemail@2.2.1
+335 silly idealTree │ ├── joi@10.6.0
+335 silly idealTree │ └── topo@2.0.2
+335 silly idealTree ├── prepend-http@1.0.4
+335 silly idealTree ├── priorityqueue@0.2.1
+335 silly idealTree ├── process-nextick-args@2.0.0
+335 silly idealTree ├── prom-client@10.2.3
+335 silly idealTree ├── promise@1.3.0
+335 silly idealTree ├── protocol-buffers-schema@3.3.2
+335 silly idealTree ├── protocols@1.4.6
+335 silly idealTree ├── protons@1.0.1
+335 silly idealTree ├── pseudomap@1.0.2
+335 silly idealTree ├── pull-abortable@4.1.1
+335 silly idealTree ├── pull-cat@1.1.11
+335 silly idealTree ├── pull-catch@1.0.0
+335 silly idealTree ├── pull-defer@0.2.2
+335 silly idealTree ├── pull-handshake@1.1.4
+335 silly idealTree ├── pull-length-prefixed@1.3.1
+335 silly idealTree ├── pull-pair@1.1.0
+335 silly idealTree ├── pull-pushable@2.2.0
+335 silly idealTree ├── pull-reader@1.3.1
+335 silly idealTree ├── pull-stream-to-stream@1.3.4
+335 silly idealTree ├── pull-stream@3.6.8
+335 silly idealTree ├── pull-ws@3.3.1
+335 silly idealTree ├── pump@3.0.0
+335 silly idealTree ├── punycode@2.1.1
+335 silly idealTree ├── r-json@1.2.8
+335 silly idealTree ├── r-package-json@1.0.7
+335 silly idealTree ├── randombytes@2.0.6
+335 silly idealTree ├── rc@1.2.8
+335 silly idealTree ├── read-all-stream@3.1.0
+335 silly idealTree ├── readable-stream@2.3.6
+335 silly idealTree ├── registry-auth-token@3.3.2
+335 silly idealTree ├── registry-url@3.1.0
+335 silly idealTree ├── relative-url@1.0.2
+335 silly idealTree ├── ripemd160@2.0.2
+335 silly idealTree ├── rsa-pem-to-jwk@1.1.3
+335 silly idealTree ├── rsa-unpack@0.0.6
+335 silly idealTree ├── safe-buffer@5.1.2
+335 silly idealTree ├── secp256k1@3.5.0
+335 silly idealTree ├── semver@5.5.0
+335 silly idealTree ├── setimmediate@1.0.5
+335 silly idealTree ├── sha.js@2.4.11
+335 silly idealTree ├─┬ shot@3.4.2
+335 silly idealTree │ ├── hoek@4.2.1
+335 silly idealTree │ ├── isemail@2.2.1
+335 silly idealTree │ ├── joi@10.6.0
+335 silly idealTree │ └── topo@2.0.2
+335 silly idealTree ├── signed-varint@2.0.1
+335 silly idealTree ├── simple-peer@9.1.2
+335 silly idealTree ├── sliced@1.0.1
+335 silly idealTree ├── socket.io-adapter@1.1.1
+335 silly idealTree ├── socket.io-client@2.1.1
+335 silly idealTree ├─┬ socket.io-parser@3.2.0
+335 silly idealTree │ └── isarray@2.0.1
+335 silly idealTree ├── socket.io-pull-stream@0.1.5
+335 silly idealTree ├── socket.io@2.1.1
+335 silly idealTree ├── spdx-correct@3.0.0
+335 silly idealTree ├── spdx-exceptions@2.1.0
+335 silly idealTree ├── spdx-expression-parse@3.0.0
+335 silly idealTree ├── spdx-license-ids@3.0.0
+335 silly idealTree ├─┬ spdy-transport@2.1.0
+335 silly idealTree │ └── debug@2.6.9
+335 silly idealTree ├── sprintf-js@1.1.0
+335 silly idealTree ├─┬ statehood@5.0.3
+335 silly idealTree │ ├── hoek@4.2.1
+335 silly idealTree │ ├── isemail@2.2.1
+335 silly idealTree │ ├── joi@10.6.0
+335 silly idealTree │ └── topo@2.0.2
+335 silly idealTree ├── stream-shift@1.0.0
+335 silly idealTree ├── stream-to-pull-stream@1.7.2
+335 silly idealTree ├── string_decoder@1.1.1
+335 silly idealTree ├── strip-json-comments@2.0.1
+335 silly idealTree ├─┬ subtext@5.0.0
+335 silly idealTree │ └── hoek@4.2.1
+335 silly idealTree ├── tdigest@0.1.1
+335 silly idealTree ├── through2@2.0.3
+335 silly idealTree ├── thunky@1.0.2
+335 silly idealTree ├── time-cache@0.3.0
+335 silly idealTree ├── timed-out@3.1.3
+335 silly idealTree ├── timed-tape@0.1.1
+335 silly idealTree ├── tmp@0.0.28
+335 silly idealTree ├── to-array@0.1.4
+335 silly idealTree ├── topo@3.0.0
+335 silly idealTree ├── tweetnacl@1.0.0
+335 silly idealTree ├── typedarray@0.0.6
+335 silly idealTree ├── typpy@2.3.10
+335 silly idealTree ├── ul@5.2.13
+335 silly idealTree ├── ultron@1.0.2
+335 silly idealTree ├── unzip-response@1.0.2
+335 silly idealTree ├── url-parse-lax@1.0.0
+335 silly idealTree ├── util-deprecate@1.0.2
+335 silly idealTree ├─┬ util@0.10.3
+335 silly idealTree │ └── inherits@2.0.1
+335 silly idealTree ├── uuid@3.3.2
+335 silly idealTree ├── validate-npm-package-license@3.0.4
+335 silly idealTree ├── varint@5.0.0
+335 silly idealTree ├─┬ vise@2.0.2
+335 silly idealTree │ └── hoek@4.2.1
+335 silly idealTree ├── wbuf@1.7.3
+335 silly idealTree ├── webcrypto-shim@0.1.1
+335 silly idealTree ├── webrtcsupport@2.2.0
+335 silly idealTree ├── wordwrap@0.0.3
+335 silly idealTree ├── wrappy@1.0.2
+335 silly idealTree ├─┬ wreck@12.5.1
+335 silly idealTree │ └── hoek@4.2.1
+335 silly idealTree ├── ws@1.1.5
+335 silly idealTree ├── xmlhttprequest-ssl@1.5.5
+335 silly idealTree ├── xor-distance@1.0.0
+335 silly idealTree ├── xsalsa20@1.0.2
+335 silly idealTree ├── xtend@4.0.1
+335 silly idealTree ├── yallist@2.1.2
+335 silly idealTree └── yeast@0.1.2
+336 silly generateActionsToTake Starting
+337 silly install generateActionsToTake
+338 warn checkPermissions Missing write access to /home/playground/Desktop/isan_shit/node_modules
+339 silly rollbackFailedOptional Starting
+340 silly rollbackFailedOptional Finishing
+341 silly runTopLevelLifecycles Finishing
+342 silly install printInstalled
+343 warn libp2p_playground@1.0.0 No description
+344 verbose If you need help, you may report this error at:
+344 verbose     <https://github.com/npm/npm/issues>
+345 warn libp2p_playground@1.0.0 No repository field.
+346 verbose If you need help, you may report this error at:
+346 verbose     <https://github.com/npm/npm/issues>
+347 verbose stack Error: EACCES: permission denied, access '/home/playground/Desktop/isan_shit/node_modules'
+347 verbose stack     at Error (native)
+348 verbose cwd /home/playground/Desktop/isan_shit
+349 error Linux 4.13.0-36-generic
+350 error argv "/usr/bin/node" "/usr/bin/npm" "install" "--save" "libp2p-floodsub"
+351 error node v6.14.3
+352 error npm  v3.10.10
+353 error path /home/playground/Desktop/isan_shit/node_modules
+354 error code EACCES
+355 error errno -13
+356 error syscall access
+357 error Error: EACCES: permission denied, access '/home/playground/Desktop/isan_shit/node_modules'
+357 error     at Error (native)
+357 error  { Error: EACCES: permission denied, access '/home/playground/Desktop/isan_shit/node_modules'
+357 error     at Error (native)
+357 error   errno: -13,
+357 error   code: 'EACCES',
+357 error   syscall: 'access',
+357 error   path: '/home/playground/Desktop/isan_shit/node_modules' }
+358 error Please try running this command again as root/Administrator.
+359 verbose exit [ -13, true ]
