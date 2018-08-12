@@ -21,28 +21,29 @@ class Watcher {
 
     addPeerEvents() {
         // If this is a discovery node, will reach this callback
+        console.log('a');
         this.node.once('peer:discovery', (peer) => {
             console.log('Discovered:', peer.id.toB58String())
             this.node.dial(peer, () => {});
         });
-    
+        console.log('b');
         this.node.on('peer:connect', (peer) => {
             console.log('Connection established to:', peer.id.toB58String())
         });
     }
 
     addChatHandlers() {
+        console.log('c');
         this.node.pubsub.subscribe('/chat/friend_request', (message) => { 
-            // {
-            //     requesterPeerId:
-            //     msg: ''
-            // }
-
-            request = JSON.parse(message);
-            this.node.peerRouting.findPeer(request.requesterPeerId, (err, peer) => {
+            console.log('Got sub req')
+            const request = JSON.parse(message.data.toString());
+            console.log(PeerId.createFromB58String(message.from))
+            console.log(this.node.peerRouting)
+            this.node.peerRouting.findPeer(PeerId.createFromB58String(message.from), (err, peer) => {
+                console.log('s')
                 if(err) throw err;
-
-                this.node.dialProtocol(peer, '/chat/accept_friend_request', (err, connection) => {
+                console.log(JSON.stringify(peer));
+                this.node.dialProtocol(peer, '/chat/accept_friend_request', (err, conn) => {
                     if(err) throw err;
 
                     pull(this.friend_req_pushs, conn);
@@ -64,16 +65,18 @@ class Watcher {
                 })
             })
         })
+        console.log('d');
     }
 
     requestFriend() {
-        message = {
-            requesterPeerId: this.node.peerInfo.id.toB58String()
+        const message = {
+            requesterPeerId: this.node.peerInfo.id
         }
 
-        this.node.pubsub.publish('/chat/friend_request', JSON.stringify(message), (err) => {
+        this.node.pubsub.publish('/chat/friend_request', Buffer.from(JSON.stringify(message)), () => {
             if(err) throw err;
 
+            console.log('Handling accept');
             this.node.handle('/chat/accept_friend_request', (err, conn) => {
                 pull(
                     p,
@@ -113,13 +116,15 @@ class Watcher {
                     peerInfo.multiaddrs.add(addr);
                 })
                 this.node = new NodeBundle({
-                    peerInfo
-                    // config: {
-                    //     bootstrap: {
-                    //         enabled: this.discover,
-                    //         list: this.dnsNodes
-                    //     }
-                    // }
+                    peerInfo,
+                    config: {
+                        peerDiscovery: {
+                            bootstrap: {
+                                enabled: this.discover,
+                                list: this.dnsNodes
+                            }
+                        }
+                    }
                 })
                 this.node.start(cb)
             }

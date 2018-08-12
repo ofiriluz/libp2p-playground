@@ -17,9 +17,7 @@ class NodeBundle extends libp2p {
                 transport: [ TCP ],
                 streamMuxer: [ Mplex ],
                 connEncryption: [ SECIO ],
-                peerDiscovery: [
-                    Bootstrap
-                ],
+                peerDiscovery: [ Bootstrap ],
                 dht: KadDHT1
             },
             config: {
@@ -30,10 +28,12 @@ class NodeBundle extends libp2p {
                     dht: true,
                     pubsub: true
                 },
-                bootstrap: {
-                    interval: 10000,
-                    enabled: true,
-                    list: ['/ip4/127.0.0.1/tcp/10333/ipfs/QmcrQZ6RJdpYuGvZqD5QEHAv6qX4BrQLJLQPQUrTrzdcgm']
+                peerDiscovery: {
+                    bootstrap: {
+                        interval: 10000,
+                        enabled: false,
+                        list: []
+                    }
                 }
             }
         }
